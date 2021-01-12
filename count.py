@@ -1,18 +1,20 @@
-import re
-import string
-frequency = {}
-
 def txt_count(file):
-    frequency = {}
-    raw_data = open(file, 'r')
-    data = raw_data.read().lower()
-    match_pattern = re.findall(r'\b[a-z]{3,15}\b', data)
+    text = open(file, 'r')
 
-    for word in match_pattern:
-        count = frequency.get(word,0)
-        frequency[word] = count + 1
+    d = dict()
+
+    for line in text:
+        line = line.strip()
+
+        line = line.lower()
+
+        words = line.split(" ")
+
+        for word in words:
+            if word in d:
+                d[word] = d[word] + 1
+            else:
+                d[word] = 1
     
-    frequency_list = frequency.keys()
-
-    for words in frequency_list:
-        print (words, frequency[words])
+    for key in list(d.keys()): 
+        print(key, ":", d[key]) 
