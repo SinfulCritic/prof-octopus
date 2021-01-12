@@ -6,3 +6,8 @@ This allows the student to get an overview of what areas the text touches, befor
 # Status
 
 Professor Octopus is still pre-alpha, and does not work in the slightest.
+
+# Contributing
+
+If you wish to contribute to this project and help realise it, please reach out to me on "theis@via.dk".
+Bear in mind that I'm a new programmer, and this was also created to help me understand Python better, and to learn git and github.
