@@ -1,0 +1,1 @@
+[('hello', 1), ('there.', 1), ('this', 1), ('is', 1), ('nothing', 1), ('test', 1), ('file.', 1), ('i', 1), ('mean', 1), ('it,', 1), ('it', 1), ('does', 1), ('absolutely', 1), ('nothing,', 1), ('thanks', 1), ('for', 1), ('taking', 1), ('look.', 1), ('please', 1), ('go', 1), ('away', 1), ('now.', 1), ('ps.', 1), ('bugger', 1), ('off', 1), ('but', 2), ('a', 2)]

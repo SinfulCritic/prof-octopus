@@ -18,5 +18,10 @@ def txt_count(file):
 
 
     end_dict = sorted(d.items() ,  key=lambda x: x[1])
-    for elem in end_dict:
-        print(elem[0], " ::", elem[1] )
+#    for elem in end_dict:
+#        print(elem[0], " ::", elem[1] )
+    with open('result.txt', 'w') as x:
+        x.write(f'{end_dict}')
+#        for elem in end_dict:
+#            x.write(elem[0] + "  ::" + elem[1] + \n)
+#            x.write(f'{elem[0]}  ::   {elem[1]} \n')

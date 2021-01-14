@@ -1,4 +1,6 @@
 from count import *
+from functions import *
+from tkinter import filedialog
 from tkinter import *
 
 root = Tk()
