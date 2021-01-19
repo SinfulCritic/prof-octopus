@@ -1,3 +1,9 @@
+#Libraries
+from tkinter import filedialog
+from tkinter import *
+
+#Function to print sorted list of words in file.
+#Needs comments and a way to return instead of print the result
 def txt_count(file):
     text = open(file, 'r')
 
@@ -25,3 +31,9 @@ def txt_count(file):
 #        for elem in end_dict:
 #            x.write(elem[0] + "  ::" + elem[1] + \n)
 #            x.write(f'{elem[0]}  ::   {elem[1]} \n')
+
+
+
+def gui_file():
+    filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("txt files","*.txt"),("all files","*.*")))
+    return filename
